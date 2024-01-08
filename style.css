@@ -21,7 +21,8 @@
 }
 
 @media (max-width: 768px) {
-  .header { text-align: center;
+  .header {
+    text-align: center;
   }
 }
 
@@ -43,12 +44,14 @@
   display: flex;
 }
 
-#incomplete-tasks, #completed-tasks {
+#incomplete-tasks,
+#completed-tasks {
   margin: 0;
   padding: 0px;
 }
 
-.task, .h3 {
+.task,
+.h3 {
   list-style: none;
 }
 
