@@ -40,12 +40,12 @@
   flex-grow: 1;
 }
 
-.task-wrapper {
+.add__wrapper {
   display: flex;
 }
 
-#incomplete-tasks,
-#completed-tasks {
+#todo,
+#completed {
   margin: 0;
   padding: 0px;
 }
@@ -159,7 +159,7 @@
 }
 
 /* Completed */
-#completed-tasks .task__label {
+#completed .task__label {
   text-decoration: line-through;
   color: #888;
 }
@@ -169,11 +169,11 @@
   display: none;
 }
 
-.edit-mode>.task__input {
+.task_edit>.task__input {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode>.task__label {
+.task_edit>.task__label {
   display: none;
 }

@@ -14,29 +14,29 @@
       <main class="main">
         <section id="add">
           <h3 class="h3 add__label">Add Item</h3>
-          <div class="task-wrapper">
+          <div class="add__wrapper">
             <input class="add__input" type="text">
             <button class="btn">Add</button>
           </div>
         </section>
         <section>
           <h3 class="h3">Todo</h3>
-          <ul id="incomplete-tasks">
+          <ul id="todo">
             <li class="task">
               <input class="task__checkbox" type="checkbox">
               <label class="task__label">Pay Bills</label>
               <input class="task__input" type="text">
-              <button class="btn edit">Edit</button>
-              <button class="btn delete">
+              <button class="btn btn__edit">Edit</button>
+              <button class="btn btn__delete">
                 <img class="btn delete__img" src="./remove.svg" alt="">
               </button>
             </li>
-            <li class="task edit-mode">
+            <li class="task task_edit">
               <input class="task__checkbox" type="checkbox">
               <label class="task__label">Go Shopping</label>
               <input class="task__input" type="text" value="Go Shopping">
-              <button class="btn edit">Save</button>
-              <button class="btn delete">
+              <button class="btn btn__edit">Save</button>
+              <button class="btn btn__delete">
                 <img class="btn delete__img" src="./remove.svg" alt="">
               </button>
             </li>
@@ -44,13 +44,13 @@
         </section>
         <section>
           <h3 class="h3">Completed</h3>
-          <ul id="completed-tasks">
+          <ul id="completed">
             <li class="task">
               <input class="task_checkbox" type="checkbox" checked>
               <label class="task__label">See the Doctor</label>
               <input class="task__input" type="text">
-              <button class="btn edit">Edit</button>
-              <button class="btn delete">
+              <button class="btn btn__edit">Edit</button>
+              <button class="btn btn__delete">
                 <img class="btn delete__img" src="./remove.svg" alt="">
               </button>
             </li>
